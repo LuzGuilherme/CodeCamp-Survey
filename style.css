@@ -1,0 +1,54 @@
+header {
+    text-align: center;
+    background-color: chocolate;
+}
+
+#survey-form {
+    background-color: rgb(221, 185, 255);
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 50px 20px 50px;
+    border-radius: 20px;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    display:inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+#name, #email {
+    border-radius: 5px;
+    height: 40px;
+    width: 70%;
+}
+
+#age {
+    border-radius: 5px;
+    height: 40px;
+    width: 30%;
+}
+
+select {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 40px;
+    width: 30%;
+}
+
+#dropdown, #radio, #dropdown-2, #improvements, #textarea {
+    padding-top: 30px;
+}
+
+input.larger {
+    width: 20px;
+    height: 20px;
+}
