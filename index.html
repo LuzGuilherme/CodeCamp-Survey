@@ -22,7 +22,7 @@
         <input id="name" type="text" name="fullname" placeholder="Enter your name" required> 
         <br>
         <label for="email" id="email-label">Email</label><br>
-        <input id="email" type="text" name="email" placeholder="Enter your Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"> 
+        <input id="email" type="text" name="email" placeholder="Enter your Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> 
         <br>
         <label for="age" id="number-label">Age(Optional)</label><br>
         <input id="age" type="number" name="age" placeholder="Age" max="120" min="0"> 
@@ -93,7 +93,7 @@
         <div id="textarea">
             <label for="comments">Any comments or suggestions?</label>
             <br>
-            <textarea id="comments" name="comments" rows="4" cols="70" placeholder="Enter your comment here..."></textarea>
+            <textarea id="comments" name="comments" rows="4" cols="150" placeholder="Enter your comment here..."></textarea>
         </div>
 
         <div id="submit">
