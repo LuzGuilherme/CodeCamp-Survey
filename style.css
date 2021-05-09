@@ -123,4 +123,5 @@ textarea {
 @media (max-width: 800px) {
     #survey-form {
         width: 70%;
+    }
 }
