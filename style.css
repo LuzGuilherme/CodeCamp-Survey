@@ -3,10 +3,30 @@ header {
     background-color: chocolate;
 }
 
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width: 700px) {
+    h1{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
+
 #survey-form {
     background-color: rgb(221, 185, 255);
     width: 50%;
-    margin: 0 auto;
+    margin: 3.125rem auto 0 auto;
     padding: 20px 50px 20px 50px;
     border-radius: 20px;
 }
@@ -51,4 +71,36 @@ select {
 input.larger {
     width: 20px;
     height: 20px;
+}
+
+#submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#subbutton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 50%;
+    transition-duration: 0.4s;
+    font-family: 'Roboto', sans-serif;
+}
+
+#subbutton:hover {
+    background-color: #2d9130; /* Green */
+    color: white;
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
 }
